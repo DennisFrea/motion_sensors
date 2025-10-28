@@ -9,7 +9,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  dchs_motion_sensors:
+  motion_sensors:
     path: ../
 
   cupertino_icons: ^1.0.2

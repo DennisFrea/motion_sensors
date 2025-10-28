@@ -5,7 +5,7 @@ Updated version from https://github.com/zesage/motion_sensors
 
 ## Getting Started
 
-To use this plugin, add `dchs_motion_sensors` as a [dependency in your pubspec.yaml
+To use this plugin, add `motion_sensors` as a [dependency in your pubspec.yaml
 file](https://flutter.io/platform-plugins/).
 
 ```yaml
@@ -16,7 +16,7 @@ dependencies:
 Import to your project.
 
 ``` dart
-import 'package:dchs_motion_sensors/dchs_motion_sensors.dart';
+import 'package:motion_sensors/motion_sensors.dart';
 
 motionSensors.magnetometer.listen((MagnetometerEvent event) {
     print(event);
